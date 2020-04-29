@@ -1,2 +1,17 @@
 server:
   port : 8085
+spring :
+  profiles: dev
+  server:
+    port : 9000
+---
+spring:
+  profiles : stage
+  server :
+    port : 8000
+---
+spring :
+  profiles:
+    actve: dev
+
+
